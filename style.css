@@ -1,0 +1,107 @@
+.mbody{
+    font-family: yugothicb;
+    font-weight: 700;
+    overflow: hidden;
+    background: linear-gradient(45deg, rgba(116,9,121,1) 0%, rgba(0,18,183,1) 0%, rgba(185,0,0,1) 100%);
+}
+
+@font-face{
+    font-family: "yugothicb";
+    src:url(assests/yugothib.ttf)format("truetype");
+}
+
+section{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    align-content: center;
+}
+
+abbr{
+    text-decoration: none;
+    color: aqua;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.mcard{
+    margin: 0;
+    border-radius: 4vh;
+    background-color: rgb(0, 0, 0);
+    padding-left:4vh;
+    padding-right:4vh;
+    padding: 4vh;
+    min-width: 32vh;
+    
+
+    background: rgba( 0, 0, 0, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+}
+
+.intro{
+    font-size: 3vb;
+    text-align: center;
+    color: white;
+    line-height: 1.5vh;  
+}
+
+abm{
+    background-color: rgb(52, 54, 80);
+    border-radius: 0.5vh;
+    padding: 0vh 0.6vh 0vh 0.6vh;
+    transition: 0.2s;
+
+}
+
+.work{
+    padding-top: 0.1vh;
+    font-size: 2.5vb;
+    line-height: 3vh;
+    opacity: 100%;
+    /*color: palevioletred;*/
+}
+
+.wor{
+    transition: 0.2s;
+}
+
+.mfindme{
+    font-size: 2vb;
+    color: white;
+    line-height: 1vh;
+}
+
+img{
+    margin: 0;
+    height: 5vh;
+    width: 5vh;
+    padding: 0.5vh;
+}
+
+.findme{
+    line-height: 1vh;
+}
+
+
+.sm{
+    display:inline-table;
+    vertical-align: middle;
+    transition: 0.5s;
+
+}
+
+
+.sm:hover{
+    cursor: pointer;
+    transform: translateY(-1.2vh);
+   /* transform: scale(1.2);*/
+}
+
+.links:hover{
+    color: rgb(204, 113, 204);
+}
